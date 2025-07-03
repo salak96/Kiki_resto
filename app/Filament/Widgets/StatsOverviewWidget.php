@@ -8,7 +8,8 @@ use Filament\Widgets\StatsOverviewWidget\Stat;
 use App\Models\Pesanan;
 use Carbon\Carbon;
 
-class StatsOverview extends BaseWidget
+class StatsOverviewWidget extends BaseWidget
+
 {
     use InteractsWithPageFilters;
 
